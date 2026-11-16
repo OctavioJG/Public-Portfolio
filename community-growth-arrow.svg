@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 310" preserveAspectRatio="xMaxYMid meet">
+<defs>
+  <linearGradient id="base" x2=".82" y2="1"><stop stop-color="#b85e14"/><stop offset="1" stop-color="#812f1c"/></linearGradient>
+  <radialGradient id="glow" cx=".87" cy="0" r=".92"><stop stop-color="#edbd77" stop-opacity=".75"/><stop offset="1" stop-color="#edbd77" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect width="576" height="440" rx="9"/></clipPath>
+  <clipPath id="art"><rect width="576" height="310"/></clipPath>
+  <path id="arrow" d="M390 237L510 117 M440 117H510V187" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <mask id="outside" maskUnits="userSpaceOnUse" x="0" y="0" width="576" height="310">
+    <rect width="576" height="310" fill="white"/><use href="#arrow" stroke="black" stroke-width="48"/>
+  </mask>
+</defs>
+<g mask="url(#outside)" stroke="#fff0d7">
+  <use href="#arrow" stroke-width="122" opacity=".055"/>
+  <use href="#arrow" stroke-width="86" opacity=".085"/>
+  <use href="#arrow" stroke-width="50.4" opacity=".65"/>
+</g>
+<use href="#arrow" stroke="#fff0d7" stroke-width="48" opacity=".17"/>
+</svg>

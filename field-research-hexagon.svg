@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -24 420 380">
+  <defs>
+    <path id="shape" d="M110 63 L243 27 Q251 25 258 31 L355 121 Q362 127 359 135 L329 252 Q327 261 318 264 L183 300 Q175 302 168 296 L72 207 Q65 201 68 192 L99 74 Q101 66 110 63Z"/>
+    <mask id="outside" maskUnits="userSpaceOnUse">
+      <rect x="0" y="-24" width="420" height="380" fill="white"/>
+      <use fill="black" href="#shape" transform="translate(0 0)"/>
+    </mask>
+  </defs>
+  <g mask="url(#outside)" fill="none" stroke="#dce9ff" stroke-linejoin="round">
+    <g stroke-width="89.3" opacity=".065"><use href="#shape" transform="translate(0 0)"/></g>
+    <g stroke-width="45.3" opacity=".105"><use href="#shape" transform="translate(0 0)"/></g>
+  </g>
+  <g fill="#dce9ff" fill-opacity=".18" stroke="#dce9ff" stroke-opacity=".68" stroke-width="1.3">
+    <use href="#shape" transform="translate(0 0)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 310" preserveAspectRatio="xMaxYMax meet">
+  <defs>
+    <path id="shape" d="M349 108 Q371 87 435 87 Q502 87 527 114 Q552 138 550 176 Q548 219 520 238 Q492 258 427 256 L373 283 Q363 288 366 278 L374 247 Q335 235 326 198 Q313 144 349 108 Z"/>
+    <mask id="outside" maskUnits="userSpaceOnUse" x="0" y="0" width="570" height="310">
+      <rect width="570" height="310" fill="white"/>
+      <use href="#shape" fill="black"/>
+    </mask>
+  </defs>
+  <g mask="url(#outside)" fill="none" stroke="#caffdf" stroke-linejoin="round">
+    <use href="#shape" stroke-width="73.2" stroke-opacity=".055"/>
+    <use href="#shape" stroke-width="37.2" stroke-opacity=".085"/>
+  </g>
+  <use href="#shape" fill="#caffdf" fill-opacity=".15" stroke="#caffdf" stroke-width="1.2" stroke-opacity=".66"/>
+</svg>
