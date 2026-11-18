@@ -864,3 +864,6 @@ nav a[aria-current=page]{color:var(--blue)}.area-link{align-self:flex-start;marg
     overflow-y: auto;
   }
 }
+
+/* Show AI Readiness first in the Strategy and Foresight mobile list. */
+@media(max-width:760px){#strategy-projects .project-grid{display:flex;flex-direction:column}#strategy-projects .project-column{display:contents}#strategy-projects .project{order:1;width:100%}#strategy-projects .ai-readiness-project{order:0}}
